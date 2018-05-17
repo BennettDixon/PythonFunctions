@@ -54,7 +54,7 @@ p = re.compile( '\d{10}' )
 # Get destination phone number
 phone = raw_input( 'Enter 10 digit phone number: ' )
 email = 'bennettdixon16@gmail.com'
-password = 'benrocks32'
+password = 'oldpasswordanywaybutoops'
 if p.match( phone ) == None:
    print 'Valid phone not entered!'
    sys.exit(0)
